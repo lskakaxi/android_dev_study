@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
 			
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				
+				test();
 			}
 		});
 		
@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
 	}
 
 	public native String stringFromJNI();
-	public native String noJNI();
+	public native void test();
 	
 	static {
 		System.loadLibrary("testjni");
